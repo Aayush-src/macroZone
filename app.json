@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "rnative",
-    "slug": "rnative",
+    "slug": "macrozone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "254f816a-3779-4211-b929-ec21c152f138"
+      }
+    },
+    "owner": "fangexpo"
   }
 }
