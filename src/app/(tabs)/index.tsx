@@ -1,3 +1,4 @@
+import CopyButton from '@/components/CopyButton';
 import MacroGrid from '@/components/Macrogrid';
 import RecentMeals from '@/components/RecentMeal';
 import ShareButton from '@/components/ShareButton';
@@ -23,6 +24,8 @@ export default function HomeScreen() {
       <ShareButton meals={meals} />
       <Homeheader />
       <MacroGrid meals={meals} />
+      <CopyButton meals={meals} />
+      {/* {Platform.OS !== 'android' && <ReminderToggle />} */}
       <RecentMeals meals={meals} onDelete={loadMeals} />
     </ScrollView >
   );
